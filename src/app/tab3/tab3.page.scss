@@ -1,0 +1,17 @@
+ion-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ion-item{
+    --padding-start: 5px;
+    font-size: 20px;
+    font-weight: bold;
+
+    &:hover{
+        --background: hsl(215, 76%, 64%);
+        
+}
+
+}
