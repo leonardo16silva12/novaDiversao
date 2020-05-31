@@ -1,0 +1,61 @@
+.alignT {
+    text-align: center;
+}
+
+ion-grid {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    right: 75px;
+}
+
+ion-title {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ion-icon {
+    align-items: left;
+    size: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    span {
+        font-size: 14px;
+    }
+}
+
+.info {
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+    .tipo {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    .duracao {
+        margin-left: 15px;
+    }
+    p {
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+    }
+}
+
+ion-toolbar {
+    ion-title {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.watchF {
+    display: flex;
+}
