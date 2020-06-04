@@ -78,6 +78,10 @@ const routes: Routes = [
   path: 'voltar3',
   loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
 },
+  {
+    path: 'intstl',
+    loadChildren: () => import('./filmes/intstl/intstl.module').then( m => m.IntstlPageModule)
+  },
 
 
 ];
